@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01:rgb(0, 0, 0);
+    --cor02:gray;
+    --cor03:white;
+    --cor04:#18FF1D;
+    --cor05:#5E62EB;
+
+    --fonte-padrao: Arial, Verdana, helvetica, sans-serif;
+}
+
+footer{
+    background-color: var(--cor02);
+    box-shadow: var(--cor05);
+}
+footer p {
+    text-align: center;
+    color: var(--cor03);
+}
+footer a{
+    color: var(--cor04);
+    font-weight: bold;
+}
